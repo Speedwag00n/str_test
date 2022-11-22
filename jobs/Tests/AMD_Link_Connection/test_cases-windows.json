@@ -1,0 +1,160 @@
+[
+    {
+        "case": "LNK_CON_001",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #1)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_002",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #2)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_003",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #3)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_004",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #4)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_005",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "Keep server, restart client (try #5)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_006",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #1)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_007",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #2)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_008",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #3)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_009",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #4)",
+            "Default Settings"
+        ]
+    },
+    {
+        "case": "LNK_CON_010",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "Keep client, restart server (try #5)",
+            "Default Settings"
+        ]
+    }
+]

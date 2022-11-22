@@ -1,0 +1,38 @@
+[
+    {
+        "case": "STR_LCP_001",
+        "status": "observed",
+        "server_keys": "-Resolution <resolution> -Capture dd -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture Type"
+        ]
+    },
+    {
+        "case": "STR_LCP_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Capture fake -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Fake Capture Type"
+        ]
+    },
+    {
+        "case": "STR_LCP_003",
+        "status": "observed",
+        "server_keys": "-Resolution <resolution> -Capture dd -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture Type"
+        ]
+    },
+    {
+        "case": "STR_LCP_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Capture fake -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Fake Capture Type"
+        ]
+    }
+]

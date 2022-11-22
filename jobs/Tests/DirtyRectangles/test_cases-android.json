@@ -1,0 +1,38 @@
+[
+    {
+        "case": "STR_ADR_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -EnableDirtyRects true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Default settings with dirty rects"
+        ]
+    },
+    {
+        "case": "STR_ADR_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -EnableDirtyRects true -DrawDirtyRects true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Drawing dirty dects"
+        ]
+    },
+    {
+        "case": "STR_ADR_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -EnableDirtyRects true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Default settings with dirty rects"
+        ]
+    },
+    {
+        "case": "STR_ADR_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -EnableDirtyRects true -DrawDirtyRects true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Drawing dirty dects"
+        ]
+    }
+]

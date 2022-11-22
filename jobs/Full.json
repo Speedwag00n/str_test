@@ -1,0 +1,31 @@
+{
+    "split":true,
+    "groups":{
+        "Audio":"",
+        "CaptureType":"",
+        "Codecs":"",
+        "ConversionType":"",
+        "Duplicate":"",
+        "MPO":"",
+        "Monitors":"",
+        "QoS":"",
+        "RateControl":"",
+        "RenderType":"",
+        "Resolution":"",
+        "Slices":"",
+        "Smoke":"",
+        "VSync":"",
+        "Connection":"",
+        "DirtyRectangles":"",
+        "Flags":"",
+        "Config":"",
+        "ConfigOverwrite":"",
+        "CaptureMode": "",
+        "Encryption":"",
+        "MulticonnectionWW":"",
+        "MulticonnectionWA":"",
+        "MulticonnectionWWA":"",
+        "HDR":"",
+        "HQScaler":""
+    }
+}

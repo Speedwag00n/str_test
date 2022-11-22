@@ -1,0 +1,82 @@
+[
+    {
+        "case": "STR_LHQ_001",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 0.5",
+        "script_info": [
+            "Default values of HQScaler",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_002",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 0",
+        "script_info": [
+            "Scaler Sharpness 0",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_003",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 2",
+        "script_info": [
+            "Scaler Sharpness 2",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_004",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 10",
+        "script_info": [
+            "Scaler Sharpness 10",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_005",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 0.5",
+        "script_info": [
+            "Default values of HQScaler",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_006",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 0",
+        "script_info": [
+            "Scaler Sharpness 0",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_007",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 2",
+        "script_info": [
+            "Scaler Sharpness 2",
+            "Scale from HD resolution"
+        ]
+    },
+    {
+        "case": "STR_LHQ_008",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true -HQScaler true -HQScalerSharpness 10",
+        "script_info": [
+            "Scaler Sharpness 10",
+            "Scale from HD resolution"
+        ]
+    }
+]

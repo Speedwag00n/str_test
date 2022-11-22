@@ -1,0 +1,22 @@
+[
+    {
+        "case": "STR_LDM_001",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Display block",
+            "EnableDump: true, DumpPath: \"C:/User/user/DumpTest\""
+        ]
+    },
+    {
+        "case": "STR_LDM_002",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Display block",
+            "EnableDump: true, DumpPath: \"C:/User/user/DumpTest\""
+        ]
+    }
+]

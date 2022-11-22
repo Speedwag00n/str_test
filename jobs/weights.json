@@ -1,0 +1,110 @@
+{
+    "weights": [
+        {
+            "suite_name": "Audio",
+            "value": 6
+        },
+        {
+            "suite_name": "Codecs",
+            "value": 2
+        },
+        {
+            "suite_name": "CaptureType",
+            "value": 4
+        },
+        {
+            "suite_name": "ConversionType",
+            "value": 4
+        },
+        {
+            "suite_name": "QoS",
+            "value": 66
+        },
+
+        {
+            "suite_name": "Connection",
+            "value": 24
+        },
+        {
+            "suite_name": "Duplicate",
+            "value": 2
+        },
+        {
+            "suite_name": "Monitors",
+            "value": 4
+        },
+        {
+            "suite_name": "MPO",
+            "value": 2
+        },
+        {
+            "suite_name": "RenderType",
+            "value": 8
+        },
+        {
+            "suite_name": "Resolution",
+            "value": 6
+        },
+        {
+            "suite_name": "Slices",
+            "value": 8
+        },
+        {
+            "suite_name": "Smoke",
+            "value": 2
+        },
+        {
+            "suite_name": "VSync",
+            "value": 2
+        },
+        {
+            "suite_name": "DirtyRectangles",
+            "value": 4
+        },
+        {
+            "suite_name": "Flags",
+            "value": 26
+        },
+        {
+            "suite_name": "Config",
+            "value": 43
+        },
+        {
+            "suite_name": "ConfigOverwrite",
+            "value": 22
+        },
+        {
+            "suite_name": "CaptureMode",
+            "value": 4
+        },
+        {
+            "suite_name": "HDR",
+            "value": 2
+        },
+
+        {
+            "suite_name": "AMD_Link_Codecs",
+            "value": 1
+        },
+        {
+            "suite_name": "AMD_Link_Connection",
+            "value": 10
+        },
+        {
+            "suite_name": "AMD_Link_Encrypt",
+            "value": 2
+        },
+        {
+            "suite_name": "AMD_Link_Resolution",
+            "value": 4
+        },
+        {
+            "suite_name": "AMD_Link_Smoke",
+            "value": 1
+        },
+        {
+            "suite_name": "AMD_Link_Streaming_Mode",
+            "value": 1
+        }    
+    ]
+}

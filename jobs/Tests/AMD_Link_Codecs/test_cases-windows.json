@@ -1,0 +1,16 @@
+[
+    {
+        "case": "LNK_CD_001",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "hevc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "H.265 Codec"
+        ]
+    }
+]

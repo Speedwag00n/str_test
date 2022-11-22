@@ -1,0 +1,388 @@
+[
+    {
+        "case": "STR_LTT_001",
+        "status": "active",
+        "server_keys": "-Protocol udp -Resolution 1920,1080 -extStats true -Capture amd -Framerate 60 -Bitrate 50000000 -QoS true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Default settings with UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_002",
+        "status": "active",
+        "server_keys": "-Protocol udp -Resolution 1920,1080 -extStats true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "FullHD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_003",
+        "status": "active",
+        "server_keys": "-Protocol udp -Resolution 1280,720 -extStats true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "HD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_004",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Fullscreen disabled",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_005",
+        "status": "active",
+        "server_keys": "-Protocol udp -Encrypt SIMPLE -extStats true",
+        "client_keys": "-Encrypt SIMPLE -Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Simple Encryption",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_006",
+        "status": "active",
+        "server_keys": "-Protocol udp -Encrypt AES -Pass \"Test\" -extStats true",
+        "client_keys": "-Encrypt AES -Pass \"Test\" -Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "AES Encryption Passphrase",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_007",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true",
+        "server_clumsy_keys": "--filter \"udp and (udp.DstPort == 1235 or udp.SrcPort == 1235)\" --lag on --lag-inbound on --lag-outbound on --lag-time 10",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Clumsy Lag",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_008",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -Framerate 0",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 0",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_009",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -Framerate 30",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 30",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_010",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -Framerate 90",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 90",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_011",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -Framerate 120",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 120",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_012",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -Framerate 144",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 144",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_013",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 30",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "VBR",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_014",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 90",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "VBR",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_015",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 30",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "VBR",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_016",
+        "status": "active",
+        "server_keys": "-Protocol udp -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 90",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "VBR",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LTT_017",
+        "status": "active",
+        "server_keys": "-Protocol tcp -Resolution 1920,1080 -extStats true -Capture amd -Framerate 60 -Bitrate 50000000 -QoS true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Default settings with TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_018",
+        "status": "active",
+        "server_keys": "-Protocol tcp -Resolution 1920,1080 -extStats true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "FullHD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_019",
+        "status": "active",
+        "server_keys": "-Protocol tcp -Resolution 1280,720 -extStats true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "HD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_020",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Fullscreen disabled",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_021",
+        "status": "active",
+        "server_keys": "-Protocol tcp -Encrypt SIMPLE -extStats true",
+        "client_keys": "-Encrypt SIMPLE -Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Simple Encryption",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_022",
+        "status": "active",
+        "server_keys": "-Protocol tcp -Encrypt AES -Pass \"Test\" -extStats true",
+        "client_keys": "-Encrypt AES -Pass \"Test\" -Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "AES Encryption Passphrase",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_023",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true",
+        "server_clumsy_keys": "--filter \"tcp and (tcp.DstPort == 1235 or tcp.SrcPort == 1235)\" --lag on --lag-inbound on --lag-outbound on --lag-time 10",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "Clumsy Lag",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_024",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -Framerate 0",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 0",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_025",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -Framerate 30",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 30",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_026",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -Framerate 90",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 90",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_027",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -Framerate 120",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 120",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_028",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -Framerate 144",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Framerate 144",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_029",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 30",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "VBR",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_030",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 90",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "VBR",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_031",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 30",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "VBR",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_LTT_032",
+        "status": "active",
+        "server_keys": "-Protocol tcp -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 90",
+        "client_keys": "-Fullscreen true",
+        "use_latency_tool": true,
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "VBR",
+            "TCP"
+        ]
+    }
+]

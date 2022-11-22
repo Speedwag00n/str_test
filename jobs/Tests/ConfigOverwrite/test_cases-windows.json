@@ -1,0 +1,202 @@
+[
+    {
+        "case": "STR_CFR_011",
+        "status": "active",
+        "server_keys": "-extStats true -Resolution 1280,720 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - height: 2160, width: 3840 in EncoderResolution part"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_012",
+        "status": "observed",
+        "server_keys": "-extStats true -SLICES 500 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoSliceOutput: true, VideoSliceCount: 100"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_013",
+        "status": "active",
+        "server_keys": "-extStats true -BITRATE 60000000 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoBitrate: 40000000"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_014",
+        "status": "active",
+        "server_keys": "-extStats true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - Network: \"UDP\""
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_015",
+        "status": "active",
+        "server_keys": "-extStats true -Microphone false -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - Microphone: true"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_016",
+        "status": "skipped",
+        "server_keys": "-extStats true -Firewall false -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VerifyFirewall: true"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_017",
+        "status": "active",
+        "server_keys": "-extStats true -CaptureMode asap -MinFramerate 40 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - MinFrameRate: 20"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_018",
+        "status": "observed",
+        "server_keys": "-extStats true -Offline false -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - EnableNetwork: false"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_019",
+        "status": "active",
+        "server_keys": "-extStats true -Codec h.265 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoCodec: \"avc\""
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_020",
+        "status": "active",
+        "server_keys": "-extStats true -EnableHDR false -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoEnableHDR: true"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_001",
+        "status": "active",
+        "server_keys": "-extStats true -Resolution 1280,720 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - height: 2160, width: 3840 in EncoderResolution part"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_002",
+        "status": "observed",
+        "server_keys": "-extStats true -SLICES 500 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoSliceOutput: true, VideoSliceCount: 100"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_003",
+        "status": "active",
+        "server_keys": "-extStats true -BITRATE 60000000  -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoBitrate: 40000000"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_004",
+        "status": "active",
+        "server_keys": "-extStats true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - Network: \"TCP\""
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_005",
+        "status": "active",
+        "server_keys": "-extStats true -Microphone false -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - Microphone: true"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_006",
+        "status": "skipped",
+        "server_keys": "-extStats true -Firewall false -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VerifyFirewall: true"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_007",
+        "status": "active",
+        "server_keys": "-extStats true -CaptureMode asap -MinFramerate 40 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - MinFrameRate: 20"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_008",
+        "status": "observed",
+        "server_keys": "-extStats true -Offline false -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - EnableNetwork: false"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_009",
+        "status": "active",
+        "server_keys": "-extStats true -Codec h.265 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoCodec: \"avc\""
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CFR_010",
+        "status": "active",
+        "server_keys": "-extStats true -EnableHDR false -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Config values - VideoEnableHDR: true"
+        ],
+        "case_delay": 15
+    }
+]

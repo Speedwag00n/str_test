@@ -1,0 +1,20 @@
+[
+    {
+        "case": "STR_ADP_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Duplicate true -extStats true -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Duplication enabled"
+        ]
+    },
+    {
+        "case": "STR_ADP_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Duplicate true -extStats true -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Duplication enabled"
+        ]
+    }
+]

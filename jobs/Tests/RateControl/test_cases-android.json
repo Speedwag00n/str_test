@@ -1,0 +1,224 @@
+[
+    {
+        "case": "STR_ARC_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -Framerate 0 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 0",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 30",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 30",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 30",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_009",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 45 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 45",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_012",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 60",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_017",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 30",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_023",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 30",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_025",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 28 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 28",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_028",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 58 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 58",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_031",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -Framerate 0 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 0",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_034",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 30",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_035",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 30",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_036",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 30",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_039",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 45 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 45",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_042",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 60",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_047",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 30",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_053",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 30",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_055",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 28 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 28",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_058",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 58 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 58",
+            "VBR",
+            "QoS false"
+        ]
+    }
+ ]

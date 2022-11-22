@@ -1,0 +1,40 @@
+[
+    {
+        "case": "STR_ACM_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode present -extStats true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode present"
+        ]
+    },
+    {
+        "case": "STR_ACM_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode asap -extStats true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode asap"
+        ]
+    },
+    {
+        "case": "STR_ACM_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode present -extStats true -CapFPS true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode present",
+            "CapFPS true"
+        ]
+    },
+    {
+        "case": "STR_ACM_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode asap -extStats true -CapFPS true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode asap",
+            "CapFPS true"
+        ]
+    }
+]

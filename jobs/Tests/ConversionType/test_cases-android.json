@@ -1,0 +1,37 @@
+[
+   {
+       "case": "STR_ACT_001",
+       "status": "active",
+       "server_keys": "-Resolution <resolution> -Convert OpenGL -extStats true -Framerate 30 -Protocol udp",
+       "client_keys": "",
+       "script_info": [
+           "Conversion OpenGL"
+       ]
+   },
+   {
+       "case": "STR_ACT_002",
+       "status": "observed",
+       "server_keys": "-Resolution <resolution> -Convert Vulkan -extStats true -Framerate 30 -Protocol udp",
+       "client_keys": "",
+       "script_info": [
+           "Conversion Vulkan"
+       ]
+   },
+   {
+       "case": "STR_ACT_003",
+       "status": "active",
+       "server_keys": "-Resolution <resolution> -Convert OpenGL -extStats true -Framerate 30 -Protocol tcp",
+       "client_keys": "",
+       "script_info": [
+           "Conversion OpenGL"
+       ]
+   },
+   {
+       "case": "STR_ACT_004",
+       "status": "observed",
+       "server_keys": "-Resolution <resolution> -Convert Vulkan -extStats true -Framerate 30 -Protocol tcp",
+       "client_keys": "",
+       "script_info": [
+           "Conversion Vulkan"
+       ]
+   }]

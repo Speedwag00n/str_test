@@ -1,0 +1,17 @@
+[
+    {
+        "case": "LNK_STM_001",
+        "status": "active",
+        "server_params": {
+            "resolution": "720p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "full_access"
+        },
+        "script_info": [
+            "Default settings",
+            "Full Access"
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "case": "STR_AAD_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -Microphone true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Microphone enabled"
+        ]
+    },
+    {
+        "case": "STR_AAD_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File"
+        ]
+    },
+    {
+        "case": "STR_AAD_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Microphone true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File + Microphone"
+        ]
+    },
+    {
+        "case": "STR_AAD_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -Microphone true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Microphone enabled"
+        ]
+    },
+    {
+        "case": "STR_AAD_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File"
+        ]
+    },
+    {
+        "case": "STR_AAD_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Microphone true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File + Microphone"
+        ]
+    }
+]

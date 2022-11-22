@@ -1,0 +1,22 @@
+[
+    {
+        "case": "STR_SMM_001",
+        "status": "active",
+        "server_keys": "-MAXUSERS 3 -Framerate 30 -Resolution <resolution> -extStats true -Protocol udp",
+        "client_keys": "-fullscreen true",
+        "second_client_keys": "-fullscreen true",
+        "script_info": [
+            "Multiconnection default settings"
+        ]
+    },
+    {
+        "case": "STR_SMM_002",
+        "status": "active",
+        "server_keys": "-MAXUSERS 3 -Framerate 30 -Resolution <resolution> -extStats true -Protocol tcp",
+        "client_keys": "-fullscreen true",
+        "second_client_keys": "-fullscreen true",
+        "script_info": [
+            "Multiconnection default settings"
+        ]
+    }
+]

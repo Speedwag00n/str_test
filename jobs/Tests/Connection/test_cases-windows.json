@@ -1,0 +1,258 @@
+[
+    {
+        "case": "STR_CON_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "server",
+        "script_info": [
+            "Connect server before client"
+        ]
+    },
+    {
+        "case": "STR_CON_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "client",
+        "script_info": [
+            "Connect client before server"
+        ]
+    },
+    {
+        "case": "STR_CON_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #3)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #4)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep server, restart client (try #5)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_009",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_010",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #3)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_011",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #4)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_012",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep client, restart server (try #5)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_013",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "server",
+        "script_info": [
+            "Connect server before client"
+        ]
+    },
+    {
+        "case": "STR_CON_014",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "client",
+        "script_info": [
+            "Connect client before server"
+        ]
+    },
+    {
+        "case": "STR_CON_015",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_016",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_017",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #3)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_018",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #4)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_019",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep server, restart client (try #5)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_020",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_021",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_022",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #3)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_023",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #4)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_CON_024",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep client, restart server (try #5)"
+        ],
+        "case_delay": 15
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "case": "STR_ECR_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol udp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "second_client_keys": "",
+        "start_first": "server",
+        "max_clients": 1,
+        "script_info": [
+            "Default settings",
+            "Server: AES Encryption",
+            "Client: AES Encryption correct Passphrase",
+            "Expected result: Client side will be receiving image from Server in real time"
+        ]
+    },
+    {
+        "case": "STR_ECR_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol udp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530143\"",
+        "second_client_keys": "",
+        "start_first": "server",
+        "max_clients": 1,
+        "expected_connection_problems": ["client"],
+        "script_info": [
+            "Default settings",
+            "Server: AES Encryption",
+            "Client: AES Encryption wrong Passphrase",
+            "Expected result: Client side will not connect to Server"
+        ]
+    },
+    {
+        "case": "STR_ECR_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -MAXUSERS 2 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol udp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "second_client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "start_first": "server",
+        "script_info": [
+            "Server: AES Encryption",
+            "Client 1: AES Encryption correct Passphrase",
+            "Client 2: AES Encryption correct Passphrase",
+            "Expected result: All Clients will connect to Server"
+        ]
+    },
+    {
+        "case": "STR_ECR_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -MAXUSERS 2 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol udp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "second_client_keys": "-Fullscreen true -Encrypt AES -Pass \"670A8A65DA156D24EE2A093277530142\"",
+        "start_first": "server",
+        "expected_connection_problems": ["second_client"],
+        "script_info": [
+            "Server: AES Encryption",
+            "Client 1: AES Encryption correct Passphrase",
+            "Client 2: AES Encryption wrong Passphrase",
+            "Expected result: Only the first Client will connect to server"
+        ]
+    },
+    {
+        "case": "STR_ECR_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol tcp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "second_client_keys": "",
+        "start_first": "server",
+        "max_clients": 1,
+        "script_info": [
+            "Default settings",
+            "Server: AES Encryption",
+            "Client: AES Encryption correct Passphrase",
+            "Expected result: Client side will be receiving image from Server in real time"
+        ]
+    },
+    {
+        "case": "STR_ECR_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol tcp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530143\"",
+        "second_client_keys": "",
+        "start_first": "server",
+        "max_clients": 1,
+        "expected_connection_problems": ["client"],
+        "script_info": [
+            "Default settings",
+            "Server: AES Encryption",
+            "Client: AES Encryption wrong Passphrase",
+            "Expected result: Client side will not connect to Server"
+        ]
+    },
+    {
+        "case": "STR_ECR_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -MAXUSERS 2 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol tcp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "second_client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "start_first": "server",
+        "script_info": [
+            "Server: AES Encryption",
+            "Client 1: AES Encryption correct Passphrase",
+            "Client 2: AES Encryption correct Passphrase",
+            "Expected result: All Clients will connect to Server"
+        ]
+    },
+    {
+        "case": "STR_ECR_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -MAXUSERS 2 -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\" -Protocol tcp",
+        "client_keys": "-Fullscreen true -Encrypt AES -Pass \"770A8A65DA156D24EE2A093277530142\"",
+        "second_client_keys": "-Fullscreen true -Encrypt AES -Pass \"670A8A65DA156D24EE2A093277530142\"",
+        "start_first": "server",
+        "expected_connection_problems": ["second_client"],
+        "script_info": [
+            "Server: AES Encryption",
+            "Client 1: AES Encryption correct Passphrase",
+            "Client 2: AES Encryption wrong Passphrase",
+            "Expected result: Only the first Client will connect to server"
+        ]
+    }
+]

@@ -1,0 +1,380 @@
+{
+    "valorant_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "start_test_actions_server",
+        "start_test_actions_client",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "valorant_actions_android": [
+        "open_game",
+        "sleep 5",
+        "start_actions",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "lol_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "start_test_actions_server",
+        "start_test_actions_client",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "lol_actions_android": [
+        "open_game",
+        "sleep 5",
+        "start_actions",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "heavendx11_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "heavendx11_actions_android": [
+        "open_game",
+        "sleep 4",
+        "press_keys \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys \"esc\""
+    ],
+
+    "heavendx9_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "heavendx9_actions_android": [
+        "open_game",
+        "sleep 4",
+        "press_keys \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys \"esc\""
+    ],
+
+    "heavenopengl_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "heavenopengl_actions_android": [
+        "open_game",
+        "sleep 4",
+        "press_keys \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys \"esc\""
+    ],
+
+    "heavenopengl_actions_ubuntu": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen heaven_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 heaven_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "valleydx11_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "valleydx11_actions_android": [
+        "open_game",
+        "sleep 4",
+        "press_keys \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys \"esc\""
+    ],
+
+    "valleydx9_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "valleydx9_actions_android": [
+        "open_game",
+        "sleep 4",
+        "press_keys \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys \"esc\""
+    ],
+
+    "valleyopengl_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "valleyopengl_actions_android": [
+        "open_game",
+        "sleep 4",
+        "press_keys \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys \"esc\""
+    ],
+
+    "valleyopengl_actions_ubuntu": [
+        "open_game",
+        "start_streaming",
+        "sleep 4",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "press_keys_server \"f9\"",
+        "sleep 1",
+        "make_screen valley_benchmark",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 valley_benchmark",
+        "press_keys_server \"esc\""
+    ],
+
+    "empty_actions": [
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "sleep 1",
+        "move 1000 800",
+        "sleep 1",
+        "click",
+        "sleep 1",
+        "click",
+        "sleep 1",
+        "start_latency_tool",
+        "sleep 3",
+        "check_game \"VIDEORENDER\" \"RuntimeBroker.exe\"",
+        "make_screen empty",
+        "sleep 4",
+        "record_video 10",
+        "sleep_and_screen 5 4 4 empty"
+    ],
+
+    "empty_actions_android": [
+        "open_game",
+        "sleep 5",
+        "make_screen empty",
+        "sleep 3",
+        "record_video 10",
+        "sleep_and_screen 5 4 4 empty"
+    ],
+
+    "dota2dx11_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "start_test_actions_server",
+        "start_test_actions_client",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "dota2dx11_actions_android": [
+        "open_game",
+        "sleep 5",
+        "start_actions",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "dota2vulkan_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "start_test_actions_server",
+        "start_test_actions_client",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "dota2vulkan_actions_android": [
+        "open_game",
+        "sleep 5",
+        "start_actions",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "csgo_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "start_test_actions_server",
+        "start_test_actions_client",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "csgo_actions_android": [
+        "open_game",
+        "sleep 5",
+        "start_actions",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "pubg_actions": [
+        "open_game",
+        "start_streaming",
+        "sleep 5",
+        "make_screen",
+        "move 400 800",
+        "click",
+        "start_test_actions_server",
+        "start_test_actions_client",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ],
+
+    "pubg_actions_android": [
+        "open_game",
+        "sleep 5",
+        "start_actions",
+        "make_screen test_actions",
+        "sleep 3",
+        "record_video 8",
+        "sleep_and_screen 4 4 3 test_actions"
+    ]
+}

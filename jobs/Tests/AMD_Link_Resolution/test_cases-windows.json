@@ -1,0 +1,122 @@
+[
+    {
+        "case": "LNK_RN_001",
+        "status": "active",
+        "server_params": {
+            "resolution": "480p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "480p",
+            "H.264"
+        ]
+    },
+    {
+        "case": "LNK_RN_002",
+        "status": "active",
+        "server_params": {
+            "resolution": "480p",
+            "encoding_type": "hevc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "480p",
+            "H.265"
+        ]
+    },
+    {
+        "case": "LNK_RN_003",
+        "status": "active",
+        "server_params": {
+            "resolution": "1080p",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "1080p",
+            "H.264"
+        ]
+    },
+    {
+        "case": "LNK_RN_004",
+        "status": "active",
+        "server_params": {
+            "resolution": "1080p",
+            "encoding_type": "hevc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "1080p",
+            "H.265"
+        ]
+    },
+    {
+        "case": "LNK_RN_005",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "2K",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "2K",
+            "H.264"
+        ]
+    },
+    {
+        "case": "LNK_RN_006",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "2K",
+            "encoding_type": "hevc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "2K",
+            "H.265"
+        ]
+    },
+    {
+        "case": "LNK_RN_007",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "4K",
+            "encoding_type": "avc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "4K",
+            "H.264"
+        ]
+    },
+    {
+        "case": "LNK_RN_008",
+        "status": "skipped",
+        "server_params": {
+            "resolution": "4K",
+            "encoding_type": "hevc",
+            "use_encryption": true,
+            "accept_all_connections": false,
+            "streaming_mode": "multi_play"
+        },
+        "script_info": [
+            "4K",
+            "H.265"
+        ]
+    }
+]

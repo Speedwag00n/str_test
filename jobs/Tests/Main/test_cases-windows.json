@@ -1,0 +1,1125 @@
+[
+    {
+        "case": "STR_MAIN_001",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "WUXGA"
+        ]
+    },
+    {
+        "case": "STR_MAIN_002",
+        "status": "active",
+        "server_keys": "-Resolution 2048,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "2K"
+        ]
+    },
+    {
+        "case": "STR_MAIN_003",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "FullHD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_004",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "HD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_005",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen false",
+        "script_info": [
+            "Fullscreen disabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_006",
+        "status": "active",
+        "server_keys": "-Resolution 1920,810 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "64:27 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_007",
+        "status": "active",
+        "server_keys": "-Resolution 1280,768 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "5:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_008",
+        "status": "active",
+        "server_keys": "-Resolution 1440,960 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "3:2 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_009",
+        "status": "active",
+        "server_keys": "-Resolution 1600,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "4:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_010",
+        "status": "active",
+        "server_keys": "-Resolution 1280,1024 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "5:4 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_011",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "WUXGA",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_012",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 2048,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_013",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "FullHD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_014",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_015",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_016",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,810 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_017",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1280,768 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_018",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1440,960 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_019",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1600,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_020",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1280,1024 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_021",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "WUXGA"
+        ]
+    },
+    {
+        "case": "STR_MAIN_022",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 2048,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "2K"
+        ]
+    },
+    {
+        "case": "STR_MAIN_023",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "FullHD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_024",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "HD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_025",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen false",
+        "script_info": [
+            "DD Capture",
+            "Fullscreen disabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_026",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,810 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "64:27 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_027",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1280,768 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_028",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1440,960 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "3:2 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_029",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1600,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "4:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_030",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1280,1024 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:4 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_031",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "WUXGA",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_032",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 2048,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "2K",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_033",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "FullHD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_034",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1280,720 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "HD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_035",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen false",
+        "script_info": [
+            "DD Capture",
+            "Fullscreen disabled",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_036",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,810 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "64:27 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_037",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1280,768 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_038",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1440,960 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "3:2 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_039",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1600,1200 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "4:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_040",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1280,1024 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:4 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_041",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -Microphone true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Microphone enabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_042",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File"
+        ]
+    },
+    {
+        "case": "STR_MAIN_043",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Microphone true -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File + Microphone"
+        ]
+    },
+    {
+        "case": "STR_MAIN_044",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Capture fake -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Fake Capture Type"
+        ]
+    },
+    {
+        "case": "STR_MAIN_045",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "server",
+        "script_info": [
+            "Connect server before client"
+        ]
+    },
+    {
+        "case": "STR_MAIN_046",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "client",
+        "script_info": [
+            "Connect client before server"
+        ]
+    },
+    {
+        "case": "STR_MAIN_047",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_048",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep server, restart client (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_049",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_050",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep client, restart server (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_051",
+        "status": "active",
+        "server_keys": "-Capture amd -Framerate 60 -Bitrate 50000000 -QoS true -Resolution 2560,1440 -extStats true -Render DX11 -Convert DX11 -Duplicate false -Codec h.265 -RateControl vbr -Slices 1 -AdjustFramerate true -AdjustBitrate true -FrameratePeriod 2 -BitratePeriod 2 -FramerateStep 5 -BitrateStep 5000000 -MinFramerate 30 -MinBitrate 10000000 -Protocol udp",
+        "client_keys": "-Fullscreen true -Stereo false -MPO false -VSync true",
+        "script_info": [
+            "All parameters set explicitly"
+        ]
+    },
+    {
+        "case": "STR_MAIN_052",
+        "status": "active",
+        "server_keys": "-extStats true",
+        "client_keys": "",
+        "script_info": [
+            "No parameters set"
+        ]
+    },
+    {
+        "case": "STR_MAIN_053",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "HDR enabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_054",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Framerate 0 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_MAIN_055",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Framerate 30 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_MAIN_056",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Framerate 90 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_MAIN_057",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "WUXGA"
+        ]
+    },
+    {
+        "case": "STR_MAIN_058",
+        "status": "active",
+        "server_keys": "-Resolution 2048,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "2K"
+        ]
+    },
+    {
+        "case": "STR_MAIN_059",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "FullHD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_060",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "HD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_061",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+        "script_info": [
+            "Fullscreen disabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_062",
+        "status": "active",
+        "server_keys": "-Resolution 1920,810 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "64:27 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_063",
+        "status": "active",
+        "server_keys": "-Resolution 1280,768 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "5:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_064",
+        "status": "active",
+        "server_keys": "-Resolution 1440,960 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "3:2 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_065",
+        "status": "active",
+        "server_keys": "-Resolution 1600,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "4:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_066",
+        "status": "active",
+        "server_keys": "-Resolution 1280,1024 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "5:4 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_067",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "WUXGA",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_068",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 2048,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_069",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "FullHD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_070",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_071",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_072",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1920,810 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_073",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1280,768 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_074",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1440,960 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_075",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1600,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_076",
+        "status": "active",
+        "server_keys": "-Codec h.264 -Resolution 1280,1024 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_077",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "WUXGA"
+        ]
+    },
+    {
+        "case": "STR_MAIN_078",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 2048,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "2K"
+        ]
+    },
+    {
+        "case": "STR_MAIN_079",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "FullHD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_080",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "HD"
+        ]
+    },
+    {
+        "case": "STR_MAIN_081",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+        "script_info": [
+            "DD Capture",
+            "Fullscreen disabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_082",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1920,810 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "64:27 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_083",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1280,768 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_084",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1440,960 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "3:2 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_085",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1600,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "4:3 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_086",
+        "status": "active",
+        "server_keys": "-Capture dd -Resolution 1280,1024 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:4 resolution"
+        ]
+    },
+    {
+        "case": "STR_MAIN_087",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "WUXGA",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_088",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 2048,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "2K",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_089",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,1080 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "FullHD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_090",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1280,720 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "HD",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_091",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+        "script_info": [
+            "DD Capture",
+            "Fullscreen disabled",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_092",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1920,810 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "64:27 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_093",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1280,768 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_094",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1440,960 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "3:2 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_095",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1600,1200 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "4:3 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_096",
+        "status": "active",
+        "server_keys": "-Capture dd -Codec h.264 -Resolution 1280,1024 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "DD Capture",
+            "5:4 resolution",
+            "AVC"
+        ]
+    },
+    {
+        "case": "STR_MAIN_097",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -Microphone true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Microphone enabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_098",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File"
+        ]
+    },
+    {
+        "case": "STR_MAIN_099",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -AudioFile \"C:\\JN\\All stars.mp3\" -Microphone true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Audio File + Microphone"
+        ]
+    },
+    {
+        "case": "STR_MAIN_100",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Capture fake -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Fake Capture Type"
+        ]
+    },
+    {
+        "case": "STR_MAIN_101",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "server",
+        "script_info": [
+            "Connect server before client"
+        ]
+    },
+    {
+        "case": "STR_MAIN_102",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "start_first": "client",
+        "script_info": [
+            "Connect client before server"
+        ]
+    },
+    {
+        "case": "STR_MAIN_103",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_server": true,
+        "script_info": [
+            "Keep server, restart client (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_104",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep server, restart client (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_105",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "keep_client": true,
+        "script_info": [
+            "Keep client, restart server (try #1)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_106",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Keep client, restart server (try #2)"
+        ],
+        "case_delay": 15
+    },
+    {
+        "case": "STR_MAIN_107",
+        "status": "active",
+        "server_keys": "-Capture amd -Framerate 60 -Bitrate 50000000 -QoS true -Resolution 2560,1440 -extStats true -Render DX11 -Convert DX11 -Duplicate false -Codec h.265 -RateControl vbr -Slices 1 -AdjustFramerate true -AdjustBitrate true -FrameratePeriod 2 -BitratePeriod 2 -FramerateStep 5 -BitrateStep 5000000 -MinFramerate 30 -MinBitrate 10000000 -Protocol tcp",
+        "client_keys": "-Fullscreen true -Stereo false -MPO false -VSync true",
+        "script_info": [
+            "All parameters set explicitly"
+        ]
+    },
+    {
+        "case": "STR_MAIN_108",
+        "status": "active",
+        "server_keys": "-extStats true",
+        "client_keys": "",
+        "script_info": [
+            "No parameters set"
+        ]
+    },
+    {
+        "case": "STR_MAIN_109",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "HDR enabled"
+        ]
+    },
+    {
+        "case": "STR_MAIN_110",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Framerate 0 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_MAIN_111",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Framerate 30 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_MAIN_112",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Framerate 90 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Framerate 0"
+        ]
+    }
+]
+

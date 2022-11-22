@@ -1,0 +1,22 @@
+[
+    {
+        "case": "STR_LHD_001",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "HDR enabled",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_LHD_002",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "HDR enabled",
+            "TCP"
+        ]
+    }
+ ]

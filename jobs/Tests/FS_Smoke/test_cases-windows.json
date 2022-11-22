@@ -1,0 +1,24 @@
+[
+    {
+        "case": "FS_SM_001",
+        "status": "active",
+        "server_keys": "-extStats true -Codec h.265 -Resolution 1920,1080 -Protocol udp",
+        "client_keys": "",
+        "full_samples_settings": {
+        },
+        "script_info": [
+            "Default settings"
+        ]
+    },
+    {
+        "case": "FS_SM_002",
+        "status": "active",
+        "server_keys": "-extStats true -Codec h.265 -Resolution 1920,1080 -Protocol tcp",
+        "client_keys": "",
+        "full_samples_settings": {
+        },
+        "script_info": [
+            "Default settings"
+        ]
+    }
+]

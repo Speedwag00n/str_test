@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<package-manifest name="StreamingSDK">
+
+    <variable name="Root" value="{CWD}"/>
+    <variable name="ResourcesDir" value = "{CWD}/Scripts"/>
+    <variable name="CommonDir" value="{CWD}/../jobs_launcher/common"/>
+    <variable name="CommonActions" value="{CWD}/Tests/common_actions.json"/>
+
+</package-manifest>

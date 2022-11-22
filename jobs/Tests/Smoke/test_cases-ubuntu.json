@@ -1,0 +1,20 @@
+[
+    {
+        "case": "STR_LSM_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Capture amd -Framerate 60 -Bitrate 50000000 -QoS true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Default settings with UDP"
+        ]
+    },
+    {
+        "case": "STR_LSM_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Capture amd -Framerate 60 -Bitrate 50000000 -QoS true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "Default settings with TCP"
+        ]
+    }
+]

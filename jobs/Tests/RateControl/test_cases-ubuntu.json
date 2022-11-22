@@ -1,0 +1,663 @@
+[
+    {
+        "case": "STR_LRC_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 0"
+        ],
+        "case_delay": 30
+    },{
+        "case": "STR_LRC_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 30"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 90"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 120 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 120"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 144 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 144"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 0"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 30"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 60 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 60"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_009",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 90"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_010",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 120 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 120"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_011",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 144 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 144"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_012",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 0"
+        ],
+        "case_delay": 30
+    },
+    {
+        "case": "STR_LRC_013",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 30"
+        ]
+    },
+    {
+        "case": "STR_LRC_014",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 60 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 60"
+        ]
+    },
+    {
+        "case": "STR_LRC_015",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 90"
+        ]
+    },
+    {
+        "case": "STR_LRC_016",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 120 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 120"
+        ]
+    },
+    {
+        "case": "STR_LRC_017",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 144 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 144"
+        ]
+    },
+    {
+        "case": "STR_LRC_018",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 10000000 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_019",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 10000000 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_020",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 10000000 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_021",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 10000000 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_022",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 10000000 -RateControl vbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "VBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_023",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 10000000 -RateControl vbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_024",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 100000000 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_025",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 100000000 -RateControl cbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_026",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 100000000 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_027",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 100000000 -RateControl lvbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_028",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 100000000 -RateControl vbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "VBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_029",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 100000000 -RateControl vbr -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "VBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_030",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 0"
+        ]
+    },{
+        "case": "STR_LRC_031",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 30"
+        ]
+    },
+    {
+        "case": "STR_LRC_032",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 90"
+        ]
+    },
+    {
+        "case": "STR_LRC_033",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 120 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 120"
+        ]
+    },
+    {
+        "case": "STR_LRC_034",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 144 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Framerate 144"
+        ]
+    },
+    {
+        "case": "STR_LRC_035",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_LRC_036",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 30"
+        ]
+    },
+    {
+        "case": "STR_LRC_037",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 60 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 60"
+        ]
+    },
+    {
+        "case": "STR_LRC_038",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 90"
+        ]
+    },
+    {
+        "case": "STR_LRC_039",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 120 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 120"
+        ]
+    },
+    {
+        "case": "STR_LRC_040",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 144 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - CBR",
+            "Framerate 144"
+        ]
+    },
+    {
+        "case": "STR_LRC_041",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 0"
+        ]
+    },
+    {
+        "case": "STR_LRC_042",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 30"
+        ]
+    },
+    {
+        "case": "STR_LRC_043",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 60 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 60"
+        ]
+    },
+    {
+        "case": "STR_LRC_044",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 90"
+        ]
+    },
+    {
+        "case": "STR_LRC_045",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 120 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 120"
+        ]
+    },
+    {
+        "case": "STR_LRC_046",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 144 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Rate Control Mode - LVBR",
+            "Framerate 144"
+        ]
+    },
+    {
+        "case": "STR_LRC_047",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 10000000 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_048",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 10000000 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_049",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 10000000 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_050",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 10000000 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_051",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 10000000 -RateControl vbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 30",
+            "VBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_052",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 10000000 -RateControl vbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Framerate 90",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_053",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 100000000 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_054",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 100000000 -RateControl cbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "CBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_055",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 100000000 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_056",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -Bitrate 100000000 -RateControl lvbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 90",
+            "LVBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_057",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 30 -Bitrate 100000000 -RateControl vbr -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "script_info": [
+            "QoS false",
+            "Bitrate 100000000",
+            "Framerate 30",
+            "VBR"
+        ]
+    },
+    {
+        "case": "STR_LRC_058",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 90 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true -ForceDisplayFrameRate true",
+        "script_info": [
+            "Server Framerate 90",
+            "QoS false",
+            "Force Display Frame Rate"
+        ]
+    }
+]

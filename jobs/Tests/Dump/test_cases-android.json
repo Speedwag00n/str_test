@@ -1,0 +1,22 @@
+[
+    {
+        "case": "STR_ADM_001",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Display block",
+            "EnableDump: true, DumpPath: \"C:/User/user/DumpTest\""
+        ]
+    },
+    {
+        "case": "STR_ADM_002",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Display block",
+            "EnableDump: true, DumpPath: \"C:/User/user/DumpTest\""
+        ]
+    }
+]

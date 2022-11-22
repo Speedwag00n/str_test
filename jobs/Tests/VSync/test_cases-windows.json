@@ -1,0 +1,20 @@
+[
+    {
+        "case": "STR_VS_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true -VSync true",
+        "script_info": [
+            "VSync enabled"
+        ]
+    },
+    {
+        "case": "STR_VS_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true -VSync true",
+        "script_info": [
+            "VSync enabled"
+        ]
+    }
+ ]

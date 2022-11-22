@@ -1,0 +1,10 @@
+pywin32==300
+PyAutoGUI==0.9.52
+pyffmpeg==2.0.5.1
+keyboard==0.13.5
+pyshark==0.5.3
+opencv-python==4.5.5.62
+numpy==1.22.2
+pydirectinput==1.0.4
+webdriver-manager==3.8.4
+selenium==4.1.0

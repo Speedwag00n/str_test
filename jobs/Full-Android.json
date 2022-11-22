@@ -1,0 +1,21 @@
+{
+    "split":true,
+    "groups":{
+        "Audio":"",
+        "CaptureType":"",
+        "Codecs":"",
+        "ConversionType":"",
+        "Duplicate":"",
+        "QoS":"",
+        "RateControl":"",
+        "RenderType":"",
+        "Resolution":"",
+        "Slices":"",
+        "Smoke":"",
+        "Connection":"",
+        "DirtyRectangles":"",
+        "Flags":"",
+        "CaptureMode":"",
+        "HDR":""
+    }
+}
