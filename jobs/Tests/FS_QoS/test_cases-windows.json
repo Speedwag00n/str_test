@@ -1,0 +1,110 @@
+[
+    {
+        "case": "STR_FQS_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinFramerate 100 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "Minimal Framerate 100",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FQS_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinBitrate 60000000 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "Minimal Bitrate 60000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FQS_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinFramerate 100 -extStats true -Framerate 30 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Minimal Framerate [FPS]": "60"
+            }
+        },
+        "script_info": [
+            "Minimal Framerate 100",
+            "Minimal Framerate change 60",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FQS_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinBitrate 60000000 -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Minimal bitrate QoS can go down to [Mbps]": "66.7572"
+            }
+        },
+        "script_info": [
+            "Minimal Bitrate 60000000",
+            "Minimal Bitrate change 70000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FQS_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinFramerate 100 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "Minimal Framerate 100",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FQS_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinBitrate 60000000 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "Minimal Bitrate 60000000",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FQS_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinFramerate 100 -extStats true -Framerate 30 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Minimal Framerate [FPS]": "60"
+            }
+        },
+        "script_info": [
+            "Minimal Framerate 100",
+            "Minimal Framerate change 60",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FQS_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -MinBitrate 60000000 -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Minimal bitrate QoS can go down to [Mbps]": "66.7572"
+            }
+        },
+        "script_info": [
+            "Minimal Bitrate 60000000",
+            "Minimal Bitrate change 70000000",
+            "TCP"
+        ]
+    }
+]

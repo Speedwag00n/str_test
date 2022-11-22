@@ -1,0 +1,114 @@
+[
+    {
+        "case": "STR_FHD_001",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HDR default",
+            "UDP",
+            "For further testing"
+        ]
+    },
+    {
+        "case": "STR_FHD_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HDR enabled",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FHD_003",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "HDR": true
+            }
+        },
+        "script_info": [
+            "HDR default",
+            "HDR change",
+            "UDP",
+            "For further testing"
+        ]
+    },
+    {
+        "case": "STR_FHD_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "HDR": false
+            }
+        },
+        "script_info": [
+            "HDR disabled",
+            "HDR change",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FHD_005",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HDR default",
+            "TCP",
+            "For further testing"
+        ]
+    },
+    {
+        "case": "STR_FHD_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HDR enabled",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FHD_007",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -extStats true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "HDR": true
+            }
+        },
+        "script_info": [
+            "HDR default",
+            "HDR change",
+            "TCP",
+            "For further testing"
+        ]
+    },
+    {
+        "case": "STR_FHD_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -EnableHDR true -Framerate 60 -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "HDR": false
+            }
+        },
+        "script_info": [
+            "HDR disabled",
+            "HDR change",
+            "TCP"
+        ]
+    }
+]

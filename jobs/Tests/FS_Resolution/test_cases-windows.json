@@ -1,0 +1,1084 @@
+[
+    {
+        "case": "STR_FRN_001",
+        "status": "active",
+        "server_keys": "-Resolution 2560,1440 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QHD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_002",
+        "status": "active",
+        "server_keys": "-Resolution 3840,2160 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_003",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1200 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "WUXGA",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_004",
+        "status": "active",
+        "server_keys": "-Resolution 2048,1080 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_005",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_006",
+        "status": "active",
+        "server_keys": "-Resolution 1920,810 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_007",
+        "status": "active",
+        "server_keys": "-Resolution 1280,768 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_008",
+        "status": "active",
+        "server_keys": "-Resolution 1440,960 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_009",
+        "status": "active",
+        "server_keys": "-Resolution 1600,1200 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_010",
+        "status": "active",
+        "server_keys": "-Resolution 1280,1024 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_011",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_012",
+        "status": "observed",
+        "server_keys": "-extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "Default resolution",
+            "Resolution change 4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_013",
+        "status": "observed",
+        "server_keys": "-Resolution 3840,2160 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["1280","720"]
+            }
+        },
+        "script_info": [
+            "4K",
+            "Default resolution",
+            "Resolution change HD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_014",
+        "status": "observed",
+        "server_keys": "-Resolution 1280,720 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "HD",
+            "Default resolution",
+            "Resolution change 4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_015",
+        "status": "active",
+        "server_keys": "-Resolution 2560,1440 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QHD",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_016",
+        "status": "active",
+        "server_keys": "-Resolution 3840,2160 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4K",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_017",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1200 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "WUXGA",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_018",
+        "status": "active",
+        "server_keys": "-Resolution 2048,1080 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_019",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_020",
+        "status": "active",
+        "server_keys": "-Resolution 1920,810 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_021",
+        "status": "active",
+        "server_keys": "-Resolution 1280,768 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_022",
+        "status": "active",
+        "server_keys": "-Resolution 1440,960 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_023",
+        "status": "active",
+        "server_keys": "-Resolution 1600,1200 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_024",
+        "status": "active",
+        "server_keys": "-Resolution 1280,1024 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_025",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "AVC",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_026",
+        "status": "observed",
+        "server_keys": "-Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "Default resolution",
+            "AVC",
+            "Resolution change 4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_027",
+        "status": "observed",
+        "server_keys": "-Resolution 3840,2160 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["1280","720"]
+            }
+        },
+        "script_info": [
+            "4K",
+            "AVC",
+            "Default resolution",
+            "Resolution change HD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_028",
+        "status": "observed",
+        "server_keys": "-Resolution 1280,720 -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "HD",
+            "AVC",
+            "Default resolution",
+            "Resolution change 4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_029",
+        "status": "skipped",
+        "server_keys": "-Resolution 2560,1440 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QHD",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_030",
+        "status": "skipped",
+        "server_keys": "-Resolution 3840,2160 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4K",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_031",
+        "status": "skipped",
+        "server_keys": "-Resolution 1920,1200 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "WUXGA",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_032",
+        "status": "skipped",
+        "server_keys": "-Resolution 2048,1080 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_033",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,720 AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_034",
+        "status": "skipped",
+        "server_keys": "-Resolution 1920,810 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_035",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,768 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_036",
+        "status": "skipped",
+        "server_keys": "-Resolution 1440,960 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_037",
+        "status": "skipped",
+        "server_keys": "-Resolution 1600,1200 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_038",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,1024 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_039",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "AV1",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_040",
+        "status": "skipped",
+        "server_keys": "-Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "Default resolution",
+            "AV1",
+            "Resolution change 4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_041",
+        "status": "skipped",
+        "server_keys": "-Resolution 3840,2160 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["1280","720"]
+            }
+        },
+        "script_info": [
+            "4K",
+            "AV1",
+            "Default resolution",
+            "Resolution change HD",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_042",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,720 -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "HD",
+            "AV1",
+            "Default resolution",
+            "Resolution change 4K",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRN_043",
+        "status": "active",
+        "server_keys": "-Resolution 2560,1440 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QHD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_044",
+        "status": "active",
+        "server_keys": "-Resolution 3840,2160 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_045",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1200 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "WUXGA",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_046",
+        "status": "active",
+        "server_keys": "-Resolution 2048,1080 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_047",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_048",
+        "status": "active",
+        "server_keys": "-Resolution 1920,810 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_049",
+        "status": "active",
+        "server_keys": "-Resolution 1280,768 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_050",
+        "status": "active",
+        "server_keys": "-Resolution 1440,960 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_051",
+        "status": "active",
+        "server_keys": "-Resolution 1600,1200 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_052",
+        "status": "active",
+        "server_keys": "-Resolution 1280,1024 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_053",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_054",
+        "status": "observed",
+        "server_keys": "-extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "Default resolution",
+            "Resolution change 4K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_055",
+        "status": "observed",
+        "server_keys": "-Resolution 3840,2160 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["1280","720"]
+            }
+        },
+        "script_info": [
+            "4K",
+            "Default resolution",
+            "Resolution change HD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_056",
+        "status": "observed",
+        "server_keys": "-Resolution 1280,720 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "HD",
+            "Default resolution",
+            "Resolution change 4K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_057",
+        "status": "active",
+        "server_keys": "-Resolution 2560,1440 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QHD",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_058",
+        "status": "active",
+        "server_keys": "-Resolution 3840,2160 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4K",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_059",
+        "status": "active",
+        "server_keys": "-Resolution 1920,1200 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "WUXGA",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_060",
+        "status": "active",
+        "server_keys": "-Resolution 2048,1080 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_061",
+        "status": "active",
+        "server_keys": "-Resolution 1280,720 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_062",
+        "status": "active",
+        "server_keys": "-Resolution 1920,810 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_063",
+        "status": "active",
+        "server_keys": "-Resolution 1280,768 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_064",
+        "status": "active",
+        "server_keys": "-Resolution 1440,960 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_065",
+        "status": "active",
+        "server_keys": "-Resolution 1600,1200 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_066",
+        "status": "active",
+        "server_keys": "-Resolution 1280,1024 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_067",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "AVC",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_068",
+        "status": "observed",
+        "server_keys": "-Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "Default resolution",
+            "AVC",
+            "Resolution change 4K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_069",
+        "status": "observed",
+        "server_keys": "-Resolution 3840,2160 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["1280","720"]
+            }
+        },
+        "script_info": [
+            "4K",
+            "AVC",
+            "Default resolution",
+            "Resolution change HD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_070",
+        "status": "observed",
+        "server_keys": "-Resolution 1280,720 -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "HD",
+            "AVC",
+            "Default resolution",
+            "Resolution change 4K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_071",
+        "status": "skipped",
+        "server_keys": "-Resolution 2560,1440 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QHD",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_072",
+        "status": "skipped",
+        "server_keys": "-Resolution 3840,2160 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4K",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_073",
+        "status": "skipped",
+        "server_keys": "-Resolution 1920,1200 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "WUXGA",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_074",
+        "status": "skipped",
+        "server_keys": "-Resolution 2048,1080 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "2K",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_075",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,720 AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "HD",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_076",
+        "status": "skipped",
+        "server_keys": "-Resolution 1920,810 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "64:27 resolution",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_077",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,768 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:3 resolution",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_078",
+        "status": "skipped",
+        "server_keys": "-Resolution 1440,960 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "3:2 resolution",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_079",
+        "status": "skipped",
+        "server_keys": "-Resolution 1600,1200 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "4:3 resolution",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_080",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,1024 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "5:4 resolution",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_081",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen false",
+
+        "script_info": [
+            "Fullscreen disabled",
+            "AV1",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_082",
+        "status": "skipped",
+        "server_keys": "-Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "Default resolution",
+            "AV1",
+            "Resolution change 4K",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_083",
+        "status": "skipped",
+        "server_keys": "-Resolution 3840,2160 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["1280","720"]
+            }
+        },
+        "script_info": [
+            "4K",
+            "AV1",
+            "Default resolution",
+            "Resolution change HD",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRN_084",
+        "status": "skipped",
+        "server_keys": "-Resolution 1280,720 -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Encoder resolution": ["3840","2160"]
+            }
+        },
+        "script_info": [
+            "HD",
+            "AV1",
+            "Default resolution",
+            "Resolution change 4K",
+            "TCP"
+        ]
+    }
+]

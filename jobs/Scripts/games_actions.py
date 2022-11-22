@@ -384,7 +384,11 @@ def prepare_game(game_name, game_launcher, fullscreen=True):
             pydirectinput.press("enter")
 
     elif game_name == "pubg":
+<<<<<<< HEAD
         sleep(90)
+=======
+        sleep(75)
+>>>>>>> dedicated_repo/master
 
         try:
             locate_and_click(PUBGElements.RIGHT_ARROW.build_path(), scale=True)

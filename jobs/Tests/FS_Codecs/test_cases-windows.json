@@ -1,0 +1,98 @@
+[
+    {
+        "case": "STR_FCD_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec default -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "Default codec",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FCD_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "h.264 Codec",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FCD_003",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -Codec AV1 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "AV1 codec",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FCD_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec h.264 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "codec": "2"
+            }
+        },
+        "script_info": [
+            "Change codec",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FCD_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec default -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "Default codec",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FCD_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "h.264 Codec",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FCD_007",
+        "status": "skipped",
+        "server_keys": "-Resolution <resolution> -Codec AV1 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "AV1 codec",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FCD_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -Codec h.264 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "codec": "2"
+            }
+        },
+        "script_info": [
+            "Change codec",
+            "TCP"
+        ]
+    }
+]

@@ -475,9 +475,15 @@ def execute_tests(args):
 
         # make a delay if it's specified for the current test case
         if "case_delay" in case:
+<<<<<<< HEAD
             time.sleep(case["case_delay"])
         else:
             time.sleep(5)
+=======
+            sleep(case["case_delay"])
+        else:
+            sleep(5)
+>>>>>>> dedicated_repo/master
 
     return rc
 

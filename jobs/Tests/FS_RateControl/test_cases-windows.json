@@ -1,0 +1,310 @@
+[
+    {
+        "case": "STR_FRC_001",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QoS false",
+            "Framerate 0",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "30"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate change 30",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "60"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate change 60",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_004",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "90"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate change 90",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 60 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "30"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate 60",
+            "Framerate change",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Bitrate 20000000 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QoS false",
+            "Bitrate 20000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "0.953675"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Biterate change 1000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "9.5367"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Biterate change 10000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_009",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "95.3674"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Biterate change 100000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_010",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Bitrate 10000000 -extStats true -Protocol udp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "95.3674"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Biterate change 100000000",
+            "UDP"
+        ]
+    },
+    {
+        "case": "STR_FRC_011",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 0 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QoS false",
+            "Framerate 0",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_012",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "30"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate change 30",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_013",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "60"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate change 60",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_014",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "90"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate change 90",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_015",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Framerate 60 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Framerate (Capture mode = Framerate) [FPS]": "30"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Framerate 60",
+            "Framerate change",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_016",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Bitrate 20000000 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+
+        "script_info": [
+            "QoS false",
+            "Bitrate 20000000",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_017",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "0.953675"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Biterate change 1000000",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_018",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "9.5367"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Biterate change 10000000",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_019",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "95.3674"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Biterate change 100000000",
+            "TCP"
+        ]
+    },
+    {
+        "case": "STR_FRC_020",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -QoS false -Bitrate 10000000 -extStats true -Protocol tcp",
+        "client_keys": "-Fullscreen true",
+        "full_samples_settings": {
+            "Video": {
+                "Video Compression Bitrate [Mbps]": "95.3674"
+            }
+        },
+        "script_info": [
+            "QoS false",
+            "Bitrate 10000000",
+            "Biterate change 100000000",
+            "TCP"
+        ]
+    }   
+]

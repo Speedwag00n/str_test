@@ -36,5 +36,46 @@
             "Capture Mode asap",
             "CapFPS true"
         ]
+<<<<<<< HEAD
+=======
+    },
+    {
+        "case": "STR_ACM_005",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode present -extStats true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode present"
+        ]
+    },
+    {
+        "case": "STR_ACM_006",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode asap -extStats true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode asap"
+        ]
+    },
+    {
+        "case": "STR_ACM_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode present -extStats true -CapFPS true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode present",
+            "CapFPS true"
+        ]
+    },
+    {
+        "case": "STR_ACM_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -CaptureMode asap -extStats true -CapFPS true -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Capture Mode asap",
+            "CapFPS true"
+        ]
+>>>>>>> dedicated_repo/master
     }
 ]

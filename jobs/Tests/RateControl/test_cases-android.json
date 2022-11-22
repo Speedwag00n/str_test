@@ -10,6 +10,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_002",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 0 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 0",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_003",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 0 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 0",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_004",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 30 -Protocol udp",
@@ -43,6 +68,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_007",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 45 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 45",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_008",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 45 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 45",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_009",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 45 -Protocol udp",
@@ -54,6 +104,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_010",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 60",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_011",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 60",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_012",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 60 -Protocol udp",
@@ -65,6 +140,57 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_013",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 10000000 -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 30",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_014",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 10000000 -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 60",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_015",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 10000000 -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 30",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_016",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 10000000 -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 60",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_017",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 30 -Protocol udp",
@@ -77,6 +203,69 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_018",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 60",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_019",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 100000000 -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 30",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_020",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 100000000 -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 60",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_021",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 100000000 -Framerate 30 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 30",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_022",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 100000000 -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 60",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_023",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 30 -Protocol udp",
@@ -89,6 +278,21 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_024",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 60 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 60",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_025",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 28 -Protocol udp",
@@ -100,6 +304,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_026",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 28 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 28",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_027",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 28 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 28",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_028",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 58 -Protocol udp",
@@ -111,6 +340,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_029",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 58 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 58",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_030",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 58 -Protocol udp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 58",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_031",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -Framerate 0 -Protocol tcp",
@@ -121,6 +375,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_032",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 0 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 0",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_033",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 0 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 0",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_034",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 30 -Protocol tcp",
@@ -154,6 +433,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_037",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 45 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 45",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_038",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 45 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 45",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_039",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 45 -Protocol tcp",
@@ -165,6 +469,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_040",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 60",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_041",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 60",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_042",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 60 -Protocol tcp",
@@ -176,6 +505,57 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_043",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 10000000 -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 30",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_044",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 10000000 -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 60",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_045",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 10000000 -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 30",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_046",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 10000000 -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 60",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_047",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 30 -Protocol tcp",
@@ -188,6 +568,69 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_048",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 10000000 -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 10000000",
+            "Framerate 60",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_049",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 100000000 -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 30",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_050",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Bitrate 100000000 -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 60",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_051",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 100000000 -Framerate 30 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 30",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_052",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Bitrate 100000000 -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 60",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_053",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 30 -Protocol tcp",
@@ -200,6 +643,21 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_054",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Bitrate 100000000 -Framerate 60 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Bitrate 100000000",
+            "Framerate 60",
+            "VBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_055",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 28 -Protocol tcp",
@@ -211,6 +669,31 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "case": "STR_ARC_056",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 28 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 28",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_057",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 28 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 28",
+            "LVBR",
+            "QoS false"
+        ]
+    },
+    {
+>>>>>>> dedicated_repo/master
         "case": "STR_ARC_058",
         "status": "active",
         "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl vbr -Framerate 58 -Protocol tcp",
@@ -220,5 +703,30 @@
             "VBR",
             "QoS false"
         ]
+<<<<<<< HEAD
+=======
+    },
+    {
+        "case": "STR_ARC_059",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl cbr -Framerate 58 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 58",
+            "CBR",
+            "QoS false"
+        ]
+    },
+    {
+        "case": "STR_ARC_060",
+        "status": "active",
+        "server_keys": "-Resolution <resolution> -extStats true -QoS false -RateControl lvbr -Framerate 58 -Protocol tcp",
+        "client_keys": "",
+        "script_info": [
+            "Framerate 58",
+            "LVBR",
+            "QoS false"
+        ]
+>>>>>>> dedicated_repo/master
     }
  ]

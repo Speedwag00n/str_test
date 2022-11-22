@@ -407,7 +407,11 @@ def start_full_samples(args, case, socket, script_path=None):
     if platform.system() == "Windows":
         if script_path:
             main_logger.info("Run Full Samples script")
+<<<<<<< HEAD
             process = psutil.Popen(script_path)
+=======
+            process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE, shell=True)
+>>>>>>> dedicated_repo/master
 
         if args.execution_type == "server":
             try:
@@ -453,11 +457,19 @@ def set_full_samples_server_options(case):
         service = Service(WEBDRIVER_VERSION)
         firefox_options = webdriver.FirefoxOptions()
         firefox_options.headless = True
+<<<<<<< HEAD
         driver = webdriver.Chrome(service=service, options=firefox_options)
+=======
+        driver = webdriver.Firefox(service=service, options=firefox_options)
+>>>>>>> dedicated_repo/master
         sleep(3)
         driver.get("http://localhost")
 
         for tab, options in case["full_samples_settings"].items():
+<<<<<<< HEAD
+=======
+            main_logger.info(f"Switch to {tab} tab")
+>>>>>>> dedicated_repo/master
             utils.find_by_xpath(FSServerLocators.TAB_TEMPLATE.replace("<tab_name>", tab), driver).click()
 
             sleep(0.5)
